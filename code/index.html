@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<!--
+	Intensify by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Political IM</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body style="font-family:微軟正黑體;">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">政治即時通</a>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="content">
+					<h1>2020 總統大選</h1>
+					<p>中國國民黨/親民黨/民主進步黨<br/>韓國瑜/宋楚瑜/蔡英文</p>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Get Started</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="search page">
+				<div class="inner">
+					<h1>PTT SEARCH:</h1>
+					<h3>Keyword:</h3>
+					<!--<form action="/action_page.php"-->
+					<form method="GET" action="ptt.php" target="iframe">
+						<input type="text" name="keyword"><br>
+						<input type="submit" value="SEARCH!">
+						<input name="url" type="hidden" value="https://www.ptt.cc/bbs/HatePolitics/search?q=">
+					</form>
+					<h1>NEWS SEARCH:</h1>
+					<h3>Keyword:</h3>
+					<form method="GET" action="news.php" target="iframe">
+						<input type="text" name="keyword">
+						<div>
+						<br>
+							<input type="radio" name="media" value="TVBS" id="bm1"><label for="bm1" style="color: #4F86C6;">TVBS</label>
+							<input type="radio" name="media" value="聯合新聞網" id="bm2"><label for="bm2" style="color: #4F86C6;">聯合新聞網</label>
+						
+							<input type="radio" name="media" value="風傳媒" id="om1"><label for="om1" style="color: coral;">風傳媒</label>
+							<input type="radio" name="media" value="蘋果日報" id="om2"><label for="om2" style="color: coral;">蘋果日報</label>
+							<input type="radio" name="media" value="ETtoday" id="om3"><label for="om3" style="color: coral;">ETtoday</label>
+						
+							<input type="radio" name="media" value="中央社" id="gm1"><label for="gm1" style="color:#88dba3">中央社</label>
+							<input type="radio" name="media" value="自由電子報" id="gm2"><label for="gm2" style="color:#88dba3">自由電子報</label>
+							<input type="radio" name="media" value="三立新聞網" id="gm3"><label for="gm3" style="color:#88dba3">三立新聞網</label>
+						</div>
+						<br>
+						<input type="submit" value="SEARCH!">
+					</form>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="result page">
+				<div class="inner flex flex-3">
+					<iframe name="iframe" src="" width="700" height="250" scrolling="auto" border-width:3px;border-style:dotted;border-color:#FFAC55;padding:5px;> 
+					</iframe>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<h2>Business Data Communication</h2>
+					<h3 style="color:#f78a76;"># 2020/01/11 大家記得去投票哦！</h3>
+				</div>
+				<p>Dec.2019</p>
+			</footer>
+
+		<!-- Scripts -->
+			<!--<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>-->
+	</body>
+</html>
